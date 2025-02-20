@@ -1,7 +1,6 @@
 ﻿#include "candle.h"
 
 #include <string>
-#include <stdexcept>
 
 Candle::Candle(Price _open, Price _high, Price _low, Price _close)
 	: open(_open)

@@ -1,8 +1,9 @@
-﻿#include <vector>
+﻿#include "CandleLib/candle.h"
+#include "TestsLib/tests.h"
+
+#include <vector>
 #include <functional>
 #include <iostream>
-
-#include "tests.h"
 
 //массив всех тестов, который мы заполняем в функции initTests
 static std::vector<std::function<bool()>> tests;
