@@ -17,3 +17,8 @@ bool test_contains_outside();
 bool test_full_size_normal();
 bool test_full_size_zero();
 bool test_full_size_small();
+
+// Тесты для body_size
+bool test_body_size_normal();
+bool test_body_size_neutral();
+bool test_body_size_small();

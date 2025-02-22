@@ -24,6 +24,11 @@ void initTests()
     tests.push_back(test_full_size_normal);
     tests.push_back(test_full_size_zero);
     tests.push_back(test_full_size_small);
+
+    // Тесты body_size
+    tests.push_back(test_body_size_normal);
+    tests.push_back(test_body_size_neutral);
+    tests.push_back(test_body_size_small);
 }
 
 int launchTests()

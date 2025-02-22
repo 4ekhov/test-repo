@@ -59,3 +59,27 @@ bool test_full_size_small()
     double actual = candle.full_size();
     return std::abs(actual - expected) < epsilon;
 }
+
+bool test_body_size_normal()
+{
+    Candle candle(100.0, 150.0, 90.0, 120.0);
+    double expected = 20.0;
+    double actual = candle.body_size();
+    return std::abs(actual - expected) < epsilon;
+}
+
+bool test_body_size_neutral()
+{
+    Candle candle(100.0, 150.0, 90.0, 100.0);
+    double expected = 0.0;
+    double actual = candle.body_size();
+    return std::abs(actual - expected) < epsilon;
+}
+
+bool test_body_size_small()
+{
+    Candle candle(100.0, 150.0, 90.0, 100.1);
+    double expected = 0.1;
+    double actual = candle.body_size();
+    return std::abs(actual - expected) < epsilon;
+}
