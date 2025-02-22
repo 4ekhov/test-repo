@@ -27,3 +27,8 @@ bool test_body_size_small();
 bool test_is_red_true();
 bool test_is_red_false();
 bool test_is_red_neutral();
+
+// Тесты для is_green
+bool test_is_green_true();
+bool test_is_green_false();
+bool test_is_green_neutral();

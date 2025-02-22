@@ -34,6 +34,11 @@ void initTests()
     tests.push_back(test_is_red_true);
     tests.push_back(test_is_red_false);
     tests.push_back(test_is_red_neutral);
+
+    // Тесты is_green
+    tests.push_back(test_is_green_true);
+    tests.push_back(test_is_green_false);
+    tests.push_back(test_is_green_neutral);
 }
 
 int launchTests()
