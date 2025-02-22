@@ -19,6 +19,11 @@ void initTests()
     tests.push_back(test_contains_inside);
     tests.push_back(test_contains_boundary);
     tests.push_back(test_contains_outside);
+
+    // Тесты full_size
+    tests.push_back(test_full_size_normal);
+    tests.push_back(test_full_size_zero);
+    tests.push_back(test_full_size_small);
 }
 
 int launchTests()
