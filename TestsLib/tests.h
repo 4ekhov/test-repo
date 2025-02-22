@@ -22,3 +22,8 @@ bool test_full_size_small();
 bool test_body_size_normal();
 bool test_body_size_neutral();
 bool test_body_size_small();
+
+// Тесты для is_red
+bool test_is_red_true();
+bool test_is_red_false();
+bool test_is_red_neutral();

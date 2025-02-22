@@ -29,6 +29,11 @@ void initTests()
     tests.push_back(test_body_size_normal);
     tests.push_back(test_body_size_neutral);
     tests.push_back(test_body_size_small);
+
+    // Тесты is_red
+    tests.push_back(test_is_red_true);
+    tests.push_back(test_is_red_false);
+    tests.push_back(test_is_red_neutral);
 }
 
 int launchTests()

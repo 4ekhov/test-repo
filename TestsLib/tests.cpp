@@ -83,3 +83,21 @@ bool test_body_size_small()
     double actual = candle.body_size();
     return std::abs(actual - expected) < epsilon;
 }
+
+bool test_is_red_true()
+{
+    Candle candle(120.0, 150.0, 90.0, 100.0);
+    return candle.is_red();
+}
+
+bool test_is_red_false()
+{
+    Candle candle(100.0, 150.0, 90.0, 120.0);
+    return !candle.is_red();
+}
+
+bool test_is_red_neutral()
+{
+    Candle candle(100.0, 150.0, 90.0, 100.0);
+    return !candle.is_red();
+}
